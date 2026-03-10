@@ -122,10 +122,10 @@
             display-name = "wasd";
             bindings = <
 &kp TILDE         &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &none                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE        &none           &kp Q         &kp W         &kp E         &kp R   &kp T                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB           &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F   &kp G      &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB           &none           &kp Q         &kp W         &kp E         &kp R   &kp T                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE        &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F   &kp G      &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_CONTROL  &none           &kp Z         &kp X         &kp C         &kp V                             &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &none           &none         &none         &none                 &kp SPACE  &kp BACKSPACE  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans            &none           &none         &none         &kp M                 &kp SPACE  &kp BACKSPACE  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
